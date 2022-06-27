@@ -1,0 +1,79 @@
+{
+  "configVersion": 1,
+  "timestamp": 1656313573038,
+  "index": "/nest-angular-auth-client/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/nest-angular-auth-client/index.html",
+        "/nest-angular-auth-client/main.25ee81b3fad6b2474de8.js",
+        "/nest-angular-auth-client/manifest.webmanifest",
+        "/nest-angular-auth-client/ngsw-worker.js",
+        "/nest-angular-auth-client/polyfills.2ce914685ceffea8177d.js",
+        "/nest-angular-auth-client/runtime.9697fe1f9e8ac58f03e6.js",
+        "/nest-angular-auth-client/scripts.ef6f80efe636f0dc694b.js",
+        "/nest-angular-auth-client/styles.7a86f4bcd4241c7913b6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/nest-angular-auth-client/assets/icon.png",
+        "/nest-angular-auth-client/assets/icons/icon-192x192.png",
+        "/nest-angular-auth-client/assets/icons/icon-256x256.png",
+        "/nest-angular-auth-client/assets/icons/icon-384x384.png",
+        "/nest-angular-auth-client/assets/icons/icon-512x512.png",
+        "/nest-angular-auth-client/assets/tones/message-tone.mp3"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/nest-angular-auth-client/assets/icon.png": "67e0039a0bdb2395c556e3139786cb7e5d0ed943",
+    "/nest-angular-auth-client/assets/icons/icon-192x192.png": "7090f786633bcfa2b45b7f3cd7f27d17ea88bb2b",
+    "/nest-angular-auth-client/assets/icons/icon-256x256.png": "f42244f926352aad596491ae2656337ba33646c8",
+    "/nest-angular-auth-client/assets/icons/icon-384x384.png": "c7eebea958e10365ca802a044a042149ce19f945",
+    "/nest-angular-auth-client/assets/icons/icon-512x512.png": "3a4161c385702213d43db9b7f7f8f8ef7488270a",
+    "/nest-angular-auth-client/assets/tones/message-tone.mp3": "adc3be18291f748dd1d7360065caa42d239a7a99",
+    "/nest-angular-auth-client/index.html": "06bf5bf23b66dcacc7af9d8a29c0489370809c4b",
+    "/nest-angular-auth-client/main.25ee81b3fad6b2474de8.js": "ffdfc22c4b3ec8ca4541b231eefcdc2c5d314148",
+    "/nest-angular-auth-client/manifest.webmanifest": "fa441f42eb8a152517d7120356cf3221a8b7c529",
+    "/nest-angular-auth-client/ngsw-worker.js": "0132110e62e1595a862ba900ab8f97e199a5eea7",
+    "/nest-angular-auth-client/polyfills.2ce914685ceffea8177d.js": "dc51c12d145e5a6544618df59684261683b9440f",
+    "/nest-angular-auth-client/runtime.9697fe1f9e8ac58f03e6.js": "4bbdf16635233d6eadbcc81c717d4a1aaa51d351",
+    "/nest-angular-auth-client/scripts.ef6f80efe636f0dc694b.js": "82db4e3e9e19c6710df65da32f5cd53f1b1f6ad9",
+    "/nest-angular-auth-client/styles.7a86f4bcd4241c7913b6.css": "9415386904cb03e5000a170e1b328b0829f574b1"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
