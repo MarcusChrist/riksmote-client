@@ -4,10 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start:worker": "ng build; npm run store:404; npm run store:worker; http-server -p 8080 -c-1 dist/task",
+    "start:worker": "ng build; npm run store:404; npm run store:worker; http-server -p 8080 -c-1 docs",
     "build": "ng build --configuration production; npm run store:worker;",
-    "store:404": "cp ./src/index.html ./dist/task/404.html",
-    "store:worker": "cp ./src/ngsw-worker.js ./dist/task",
+    "store:404": "cp ./src/index.html ./docs/404.html",
+    "store:worker": "cp ./src/ngsw-worker.js ./docs",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
