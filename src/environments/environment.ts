@@ -3,8 +3,8 @@ export const environment = {
   api: 'https://riksmote.herokuapp.com',
   socket: 'https://riksmote.herokuapp.com',
   apps: {
-    facebook: '535472397651204',
-    google: '331672215174-0hlpm8fhjphiou05ovsd82vglor401ct.apps.googleusercontent.com',
+    facebook: '676046816978387',
+    google: '847417968911-lim6ak6h6g0p49g2ml6odu3j7a3eeb1h.apps.googleusercontent.com',
     apple: {
       clientId: '!nest-auth.ubbly.club',
       redirectUri: '!https://nest-auth.ubbly.club/',

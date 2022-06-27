@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1656326777873,
+  "timestamp": 1656339711851,
   "index": "/riksmote-client/index.html",
   "assetGroups": [
     {
@@ -50,7 +50,7 @@
     "/riksmote-client/assets/icons/icon-512x512.png": "3a4161c385702213d43db9b7f7f8f8ef7488270a",
     "/riksmote-client/assets/tones/message-tone.mp3": "adc3be18291f748dd1d7360065caa42d239a7a99",
     "/riksmote-client/index.html": "24c1d5b843f05d314d3d025e73f0f35138f8fbc2",
-    "/riksmote-client/main.js": "793897df748d6b09535347c92d909d10b1f1b6dc",
+    "/riksmote-client/main.js": "693faab83285cdfc96b0d8fd6aa78fee15202af7",
     "/riksmote-client/manifest.webmanifest": "fa441f42eb8a152517d7120356cf3221a8b7c529",
     "/riksmote-client/ngsw-worker.js": "0132110e62e1595a862ba900ab8f97e199a5eea7",
     "/riksmote-client/polyfills.js": "9233ef1728e8d83a586be662b5e58db700a03034",
