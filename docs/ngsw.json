@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1656322615469,
+  "index": "/riksmote-client/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/riksmote-client/index.html",
+        "/riksmote-client/main.js",
+        "/riksmote-client/manifest.webmanifest",
+        "/riksmote-client/ngsw-worker.js",
+        "/riksmote-client/polyfills.js",
+        "/riksmote-client/runtime.js",
+        "/riksmote-client/scripts.js",
+        "/riksmote-client/styles.css",
+        "/riksmote-client/vendor.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/riksmote-client/assets/icon.png",
+        "/riksmote-client/assets/icons/icon-192x192.png",
+        "/riksmote-client/assets/icons/icon-256x256.png",
+        "/riksmote-client/assets/icons/icon-384x384.png",
+        "/riksmote-client/assets/icons/icon-512x512.png",
+        "/riksmote-client/assets/tones/message-tone.mp3"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/riksmote-client/assets/icon.png": "67e0039a0bdb2395c556e3139786cb7e5d0ed943",
+    "/riksmote-client/assets/icons/icon-192x192.png": "7090f786633bcfa2b45b7f3cd7f27d17ea88bb2b",
+    "/riksmote-client/assets/icons/icon-256x256.png": "f42244f926352aad596491ae2656337ba33646c8",
+    "/riksmote-client/assets/icons/icon-384x384.png": "c7eebea958e10365ca802a044a042149ce19f945",
+    "/riksmote-client/assets/icons/icon-512x512.png": "3a4161c385702213d43db9b7f7f8f8ef7488270a",
+    "/riksmote-client/assets/tones/message-tone.mp3": "adc3be18291f748dd1d7360065caa42d239a7a99",
+    "/riksmote-client/index.html": "24c1d5b843f05d314d3d025e73f0f35138f8fbc2",
+    "/riksmote-client/main.js": "5e961ba27a4350b6222adf3e2c9a54a5dbeba5aa",
+    "/riksmote-client/manifest.webmanifest": "fa441f42eb8a152517d7120356cf3221a8b7c529",
+    "/riksmote-client/ngsw-worker.js": "0132110e62e1595a862ba900ab8f97e199a5eea7",
+    "/riksmote-client/polyfills.js": "9233ef1728e8d83a586be662b5e58db700a03034",
+    "/riksmote-client/runtime.js": "0ee185beb1d37ab3806b3f05d3fa7ea98f1d798b",
+    "/riksmote-client/scripts.js": "77a7d291683369af82deaa710dd99efeff86810e",
+    "/riksmote-client/styles.css": "3984e39f19089d729ab4e350abf3f29e982fe444",
+    "/riksmote-client/vendor.js": "69ba22a2dd00fd323cb440f6a68ffc7e34e44afb"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

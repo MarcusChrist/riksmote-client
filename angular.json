@@ -22,7 +22,7 @@
               "socket.io-client",
               "ngx-socket-io"
             ],
-            "outputPath": "docs",
+            "outputPath": "dist/task",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
